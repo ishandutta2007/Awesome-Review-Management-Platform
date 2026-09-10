@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="40%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="35%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="card-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="star-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.85; transform: scale(1.05); }
+    }
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes float-delay {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-9px); }
+    }
+    @keyframes dash-stream {
+      to { stroke-dashoffset: -120; }
+    }
+    @keyframes star-twinkle {
+      0%, 100% { opacity: 0.7; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 6px #fbbf24); }
+    }
+    @keyframes radar-ping {
+      0% { r: 10; opacity: 0.9; }
+      100% { r: 70; opacity: 0; }
+    }
+    .floating-card-1 {
+      animation: float-slow 4.5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .floating-card-2 {
+      animation: float-delay 5.2s ease-in-out infinite 0.8s;
+      transform-origin: center;
+    }
+    .stream-line {
+      stroke: #38bdf8;
+      stroke-width: 1.5;
+      stroke-dasharray: 6, 6;
+      animation: dash-stream 15s linear infinite;
+    }
+    .stream-gold {
+      stroke: #fbbf24;
+      stroke-width: 1.5;
+      stroke-dasharray: 6, 6;
+      animation: dash-stream 18s linear infinite;
+    }
+    .star-anim {
+      animation: star-twinkle 2.5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .radar-pulse {
+      animation: radar-ping 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: -0.5px;
+    }
+    .text-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      fill: #94a3b8;
+    }
+    .text-tag {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="380" rx="18" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Geometric Grid Accent -->
+  <g stroke="#1e293b" stroke-opacity="0.35" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="220" x2="1200" y2="220" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="120" y1="0" x2="120" y2="380" />
+    <line x1="260" y1="0" x2="260" y2="380" />
+    <line x1="400" y1="0" x2="400" y2="380" />
+    <line x1="840" y1="0" x2="840" y2="380" />
+    <line x1="980" y1="0" x2="980" y2="380" />
+    <line x1="1100" y1="0" x2="1100" y2="380" />
+  </g>
+
+  <!-- Background Radial Glows -->
+  <circle cx="180" cy="180" r="160" fill="#f59e0b" opacity="0.06" filter="url(#glow-gold)" />
+  <circle cx="980" cy="190" r="180" fill="#0284c7" opacity="0.08" filter="url(#glow-cyan)" />
+
+  <!-- Dynamic Connecting Review Streams -->
+  <path d="M 680 180 Q 760 130 840 160 T 960 150" fill="none" class="stream-line" opacity="0.7" />
+  <path d="M 700 240 Q 790 290 870 240 T 980 250" fill="none" class="stream-gold" opacity="0.6" />
+
+  <!-- LEFT: Hero Branding & Details -->
+  <g transform="translate(60, 48)">
+    <!-- Category Pill -->
+    <g transform="translate(0, 8)">
+      <rect width="250" height="28" rx="14" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.2" />
+      <circle cx="14" cy="14" r="4" fill="#fbbf24" />
+      <text x="26" y="19" fill="#fbbf24" class="text-tag">ONLINE REPUTATION &amp; ORM</text>
+    </g>
+
+    <!-- Star Ratings Row -->
+    <g transform="translate(260, 8)">
+      <g class="star-anim">
+        <text x="0" y="21" font-size="20" fill="#fbbf24">★★★★★</text>
+      </g>
+      <text x="95" y="20" fill="#f8fafc" font-size="13" font-family="sans-serif" font-weight="700">5.0 / 5.0</text>
+      <text x="150" y="20" fill="#94a3b8" font-size="13" font-family="sans-serif">(10k+ Verified)</text>
+    </g>
+
+    <!-- Title -->
+    <text x="0" y="88" fill="url(#title-grad)" class="text-title" filter="url(#glow-cyan)">Awesome Review Management</text>
+    <text x="0" y="128" fill="#f8fafc" class="text-title" font-size="34" letter-spacing="-0.3px">Platform &amp; ORM Ecosystem</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="166" class="text-sub">Curated SaaS leaders, open-source alternatives, social proof tools,</text>
+    <text x="0" y="190" class="text-sub">AI sentiment analysis, feedback workflows, and multi-location engines.</text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 222)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="138" height="28" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="12" y="18" fill="#38bdf8" class="text-tag">⭐ Review Aggregation</text>
+
+      <!-- Tag 2 -->
+      <rect x="148" y="0" width="128" height="28" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="12" y="18" fill="#34d399" class="text-tag">🤖 AI Auto-Reply</text>
+
+      <!-- Tag 3 -->
+      <rect x="286" y="0" width="144" height="28" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="12" y="18" fill="#a78bfa" class="text-tag">📊 Sentiment Mining</text>
+
+      <!-- Tag 4 -->
+      <rect x="440" y="0" width="142" height="28" rx="6" fill="#1e293b" stroke="#334155" />
+      <text x="12" y="18" fill="#f43f5e" class="text-tag">⚡ SMS Review Drip</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: Dynamic Interactive Cards -->
+  <!-- Card 1: Review Stream Card -->
+  <g class="floating-card-1" transform="translate(800, 42)">
+    <rect width="330" height="130" rx="14" fill="url(#card-grad1)" stroke="#334155" stroke-width="1.4" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))" />
+    <circle cx="36" cy="38" r="18" fill="#0284c7" />
+    <text x="29" y="44" fill="#ffffff" font-size="16" font-family="sans-serif" font-weight="700">G</text>
+    <text x="64" y="34" fill="#f8fafc" font-size="14" font-family="sans-serif" font-weight="700">Google Business Review</text>
+    <text x="64" y="50" fill="#fbbf24" font-size="12">★★★★★ <tspan fill="#94a3b8" font-size="11">· Just now</tspan></text>
+    <rect x="250" y="24" width="60" height="20" rx="10" fill="#10b981" fill-opacity="0.2" />
+    <text x="258" y="38" fill="#34d399" font-size="10" font-family="sans-serif" font-weight="700">VERIFIED</text>
+    <text x="20" y="80" fill="#cbd5e1" font-size="12" font-family="sans-serif">"Seamless onboarding and exceptional service!</text>
+    <text x="20" y="98" fill="#cbd5e1" font-size="12" font-family="sans-serif">Our customer NPS increased by 38%."</text>
+    <!-- Card indicator -->
+    <circle cx="300" cy="112" r="3" fill="#10b981" />
+    <text x="240" y="115" fill="#64748b" font-size="10" font-family="sans-serif">Status: Synced</text>
+  </g>
+
+  <!-- Card 2: AI Sentiment Intelligence Card -->
+  <g class="floating-card-2" transform="translate(830, 195)">
+    <rect width="310" height="140" rx="14" fill="url(#card-grad1)" stroke="#475569" stroke-width="1.4" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))" />
+    <circle cx="36" cy="36" r="16" fill="#8b5cf6" />
+    <text x="29" y="42" fill="#ffffff" font-size="14" font-family="sans-serif" font-weight="700">AI</text>
+    <text x="62" y="34" fill="#f8fafc" font-size="14" font-family="sans-serif" font-weight="700">Sentiment Intelligence</text>
+    <text x="62" y="50" fill="#a78bfa" font-size="11" font-family="sans-serif">Real-Time Reputation Score</text>
+
+    <!-- Metrics Bar -->
+    <g transform="translate(20, 68)">
+      <rect width="270" height="8" rx="4" fill="#334155" />
+      <rect width="248" height="8" rx="4" fill="#10b981" />
+      <text x="0" y="28" fill="#94a3b8" font-size="11" font-family="sans-serif">Positive Sentiment</text>
+      <text x="240" y="28" fill="#34d399" font-size="12" font-family="sans-serif" font-weight="700">92%</text>
+    </g>
+
+    <!-- Radar Pulse Ring -->
+    <circle cx="280" cy="36" r="10" stroke="#38bdf8" stroke-width="1.5" fill="none" class="radar-pulse" />
+    <circle cx="280" cy="36" r="4" fill="#38bdf8" />
+    <text x="20" y="126" fill="#64748b" font-size="10" font-family="sans-serif">Automated response queued via LLM · 1.2s</text>
+  </g>
+</svg>

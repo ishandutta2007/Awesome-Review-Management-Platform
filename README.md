@@ -1,59 +1,56 @@
-# Awesome-Review-Management-Platform
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Review Management Platform Banner" width="100%">
+</p>
 
-## Top Review Management Platform
+<h1 align="center">⭐ Awesome Review Management Platform ⭐</h1>
 
-A curated list of leading **Review Management**, **Online Reputation Management (ORM)**, **Review Monitoring**, **Review Generation**, **Customer Feedback**, **Reputation Intelligence**, and **Review Marketing** platforms — with a strong emphasis on **open-source and self-hosted alternatives**.
+<p align="center">
+  <strong>A curated list of leading Review Management, Online Reputation Management (ORM), Review Monitoring, Review Generation, Customer Feedback, and Reputation Intelligence platforms — featuring enterprise SaaS benchmarks and ranked open-source alternatives.</strong>
+</p>
 
-> Review Management platforms collect, monitor, analyze, respond to, generate, and publish customer reviews across multiple channels such as Google, Facebook, Yelp, TripAdvisor, industry-specific directories, and first-party websites.
->
-> Commercial platforms such as Birdeye, Podium, Yext, ReviewTrackers, NiceJob, Broadly, Grade.us, Trustpilot, Reputation and Synup combine review aggregation with review generation, response management, analytics, listings, messaging, customer feedback and reputation intelligence. For example, Birdeye aggregates reviews from hundreds of sites and supports centralized responses, while Yext provides review monitoring, response, generation and API capabilities.
->
-> The open-source ecosystem is more fragmented. There are fewer complete drop-in equivalents to Birdeye or Reputation.com, but there are numerous self-hosted review/testimonial systems, social-listening tools, survey platforms, CRM/helpdesk systems, analytics platforms, workflow engines, and APIs that can be combined into a powerful open-source reputation-management platform.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Review-Management-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Review-Management-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-# Table of Contents
+## 📖 Table of Contents
 
-* [What Is Review Management?](#what-is-review-management)
-* [Core Review Management Capabilities](#core-review-management-capabilities)
+* [🔍 What Is Review Management?](#-what-is-review-management)
+* [⚡ Core Review Management Capabilities](#-core-review-management-capabilities)
 * [🏢 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
-* [Open-Source](#open-source)
-* [Open-Source Review Management Platforms](#open-source-review-management-platforms)
-* [Open-Source Review and Testimonial Collection](#open-source-review-and-testimonial-collection)
-* [Open-Source Social Listening and Reputation Monitoring](#open-source-social-listening-and-reputation-monitoring)
-* [Open-Source Surveys and Customer Feedback](#open-source-surveys-and-customer-feedback)
-* [Open-Source CRM and Customer Experience](#open-source-crm-and-customer-experience)
-* [Open-Source Marketing Automation](#open-source-marketing-automation)
-* [Open-Source Forms and Data Collection](#open-source-forms-and-data-collection)
-* [Open-Source Analytics](#open-source-analytics)
-* [Open-Source Automation and Integration](#open-source-automation-and-integration)
-* [Open-Source AI and Sentiment Analysis](#open-source-ai-and-sentiment-analysis)
-* [Open-Source Search and Data Infrastructure](#open-source-search-and-data-infrastructure)
-* [Review Aggregation Architecture](#review-aggregation-architecture)
-* [Review Generation Architecture](#review-generation-architecture)
-* [Review Response Architecture](#review-response-architecture)
-* [Reputation Intelligence Architecture](#reputation-intelligence-architecture)
-* [Commercial → Open-Source Mapping](#commercial--open-source-mapping)
-* [Capability Matrix](#capability-matrix)
-* [Recommended Open-Source Stacks](#recommended-open-source-stacks)
-* [What Open Source Can Replace](#what-open-source-can-replace)
-* [What Open Source Cannot Replace Automatically](#what-open-source-cannot-replace-automatically)
-* [Open-Source Review Platform Blueprint](#open-source-review-platform-blueprint)
-* [Multi-Location Architecture](#multi-location-architecture)
-* [Review Monitoring Workflow](#review-monitoring-workflow)
-* [Review Generation Workflow](#review-generation-workflow)
-* [Sentiment Analysis Workflow](#sentiment-analysis-workflow)
-* [Review Response Workflow](#review-response-workflow)
-* [Reputation Dashboard](#reputation-dashboard)
-* [Security and Privacy](#security-and-privacy)
-* [Licensing Considerations](#licensing-considerations)
-* [Top Open-Source Shortlist](#top-open-source-shortlist)
-* [Best Open-Source Stack](#best-open-source-stack)
-* [Conclusion](#conclusion)
+* [💻 Open-Source Ecosystem & Shortlist](#-open-source-ecosystem--shortlist)
+  * [⭐ Review & Testimonial Platforms](#-review--testimonial-platforms)
+  * [📋 Surveys & Customer Feedback](#-surveys--customer-feedback)
+  * [👥 CRM, Customer Experience & Triage](#-crm-customer-experience--triage)
+  * [📬 Review Generation & Campaigns](#-review-generation--campaigns)
+  * [📊 Forms, Internal Portals & Data Infrastructure](#-forms-internal-portals--data-infrastructure)
+  * [📈 Analytics & Reputation Dashboards](#-analytics--reputation-dashboards)
+  * [⚡ Automation & Integration Workflows](#-automation--integration-workflows)
+  * [🔍 Social Listening & Web Monitoring](#-social-listening--web-monitoring)
+  * [🧠 AI, NLP & Sentiment Analysis](#-ai-nlp--sentiment-analysis)
+* [🔎 SEO & Search Intent Overview](#-seo--search-intent-overview)
+* [🏗️ Review Aggregation Architecture](#️-review-aggregation-architecture)
+* [🚀 Review Generation Architecture](#-review-generation-architecture)
+* [💬 Review Response Architecture](#-review-response-architecture)
+* [🧠 Reputation Intelligence Architecture](#-reputation-intelligence-architecture)
+* [🗺️ Commercial → Open-Source Mapping](#️-commercial--open-source-mapping)
+* [📊 Capability Matrix](#-capability-matrix)
+* [💡 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
+* [⚖️ What Open Source Can & Cannot Replace](#️-what-open-source-can--cannot-replace)
+* [🌐 Multi-Location & Enterprise Workflows](#-multi-location--enterprise-workflows)
+* [🤝 How to Contribute](#-how-to-contribute)
+* [📈 Star History](#-star-history)
+* [📜 Disclaimer](#-disclaimer)
 
 ---
 
-# What Is Review Management?
+## 🔍 What Is Review Management?
 
 Review Management is the process of systematically:
 
@@ -77,71 +74,54 @@ LEARN
 IMPROVE
 ```
 
-customer feedback and online reviews.
+customer feedback, public star ratings, and online reviews across all digital touchpoints.
 
 A modern review-management platform normally handles:
 
-* Google reviews
-* Facebook reviews
-* Yelp reviews
-* TripAdvisor reviews
-* Industry-specific review sites
-* First-party reviews
-* Customer testimonials
-* Review invitations
-* SMS review requests
-* Email review requests
-* QR-code review campaigns
-* Review monitoring
-* Review response
-* AI-assisted responses
-* Sentiment analysis
-* Topic analysis
-* Competitor monitoring
-* Location-level reporting
-* Reputation scoring
-* Review widgets
-* Social publishing
-* Customer feedback
-* Surveys
-* Listings
-* Local SEO
-* Customer messaging
+* 🌐 **Google reviews**, **Facebook reviews**, **Yelp reviews**, and **TripAdvisor reviews**
+* 🏢 **Industry-specific review sites** (G2, Capterra, Avvo, Healthgrades, Edmunds)
+* 💬 **First-party reviews** and on-site customer testimonials
+* 📩 **Automated review invitations** (SMS review requests, Email drip sequences, QR codes)
+* 🔔 **Review monitoring** and real-time multi-channel alerts
+* 🤖 **AI-assisted review responses** and personalized auto-reply drafting
+* 📊 **Sentiment analysis**, topic extraction, and keyword clustering
+* 🎯 **Competitor monitoring** and market benchmarking
+* 📍 **Location-level reporting** and multi-unit franchise analytics
+* 🌟 **Reputation scoring** and customer satisfaction metrics (NPS, CSAT)
+* 🧩 **Review widgets** and social proof showcases
+* 🚀 **Social publishing** and customer story marketing
+* 🗂️ **Local SEO listings management** and citation synchronization
 
 ---
 
-# Core Review Management Capabilities
+## ⚡ Core Review Management Capabilities
 
-| Capability            | Description                                 |
-| --------------------- | ------------------------------------------- |
-| Review aggregation    | Collect reviews from multiple publishers    |
-| Review monitoring     | Detect new reviews                          |
-| Review alerts         | Notify teams of new reviews                 |
-| Review response       | Reply from a central dashboard              |
-| AI responses          | Generate response drafts                    |
-| Review generation     | Request new reviews                         |
-| SMS campaigns         | Send review invitations through SMS         |
-| Email campaigns       | Send review invitations through email       |
-| Feedback routing      | Route unhappy customers to private feedback |
-| Sentiment analysis    | Determine positive/negative sentiment       |
-| Topic analysis        | Identify recurring customer issues          |
-| Reputation score      | Aggregate reputation indicators             |
-| Competitor monitoring | Compare competitors                         |
-| Multi-location        | Manage many locations                       |
-| Review widgets        | Display reviews on websites                 |
-| Review syndication    | Distribute content                          |
-| Social sharing        | Publish reviews to social channels          |
-| Listings management   | Manage business listings                    |
-| Customer messaging    | Communicate with customers                  |
-| CRM integration       | Connect customer records                    |
-| API                   | Integrate with other systems                |
-| Webhooks              | Trigger workflows                           |
-| Analytics             | Measure reputation trends                   |
-| White-label           | Agencies can rebrand the platform           |
-| Approval workflow     | Moderate content before publishing          |
+| 🛠️ Capability | 📝 Description |
+| :--- | :--- |
+| **Review Aggregation** | Collect and normalize reviews from multiple publishers (Google, Facebook, Yelp, etc.) |
+| **Review Monitoring** | Detect new reviews in real time across dozens of public directories |
+| **Review Alerts** | Instant notifications to operational teams via Slack, Teams, Email, or Webhooks |
+| **Review Response** | Centralized inbox to draft and publish replies directly to publishers |
+| **AI Responses** | Automated draft generation matching company brand voice with LLMs |
+| **Review Generation** | Automated post-purchase or post-visit review solicitation campaigns |
+| **SMS Campaigns** | Send high-conversion review invitations through SMS with shortlinks |
+| **Email Campaigns** | Automated email sequences requesting feedback and online ratings |
+| **Feedback Routing** | Route unhappy customers to private resolution while directing advocates to public review sites |
+| **Sentiment Analysis** | Natural Language Processing (NLP) to classify positive, neutral, and negative sentiment |
+| **Topic Analysis** | Unsupervised clustering to uncover recurring operational bugs, staff issues, or product flaws |
+| **Reputation Score** | Unified quantitative metric tracking company trustworthiness over time |
+| **Competitor Monitoring** | Benchmark star ratings, review velocity, and customer sentiment against rivals |
+| **Multi-Location Hub** | Manage hundreds of physical branches, franchises, or dealer locations from one console |
+| **Review Widgets** | Dynamic embeddable carousels, badges, and grids for websites and landing pages |
+| **Review Syndication** | Distribute review schema markup (JSON-LD) for rich search snippet star ratings |
+| **Social Sharing** | Convert glowing customer reviews into branded graphics for Instagram, Facebook, and LinkedIn |
+| **Listings Management** | Sync NAP (Name, Address, Phone) consistency across major directory ecosystems |
+| **Customer Messaging** | Two-way unified inbox across SMS, webchat, WhatsApp, and social messages |
+| **API & Webhooks** | Headless REST/GraphQL APIs and event triggers to connect review data to internal ERPs/CRMs |
+| **White-Labeling** | Full custom branding, custom domains, and client portals for agencies and resellers |
+| **Approval Workflow** | Multi-tier editorial workflows to review and moderate staff responses before publishing |
 
 ---
-
 # 🏢 SaaS & Commercial Hosted Platforms
 
 > **Market Size & Landscape Analysis:** The global Review Management and Online Reputation Management (ORM) Software market is valued at approximately **$4.8 Billion in 2025/2026** and is projected to expand at a compound annual growth rate (CAGR) of ~15.2% to surpass **$10.5 Billion by 2031**. The sector remains **highly to moderately fragmented** rather than a winner-take-all monopoly: while enterprise leaders (Podium, Yext, Birdeye, Reputation) command substantial multi-location brand market share, dozens of agile platforms thrive by targeting specialized niches—such as small business trades (NiceJob, Broadly), marketing agencies and white-label resellers (Grade.us, HighLevel, Vendasta), localized SEO specialists (BrightLocal, Whitespark), and eCommerce consumer social proof (Trustpilot, EmbedSocial).
@@ -180,918 +160,253 @@ A modern review-management platform normally handles:
 
 ---
 
-# Open-Source
-
-> **Important:** The open-source market is considerably more fragmented than the commercial review-management market.
->
-> There is currently no single open-source project that universally provides the full feature set of:
->
-> ```text
-> Birdeye
-> +
-> Podium
-> +
-> Yext
-> +
-> ReviewTrackers
-> +
-> Reputation.com
-> +
-> Trustpilot Business
-> ```
->
-> The practical open-source strategy is to combine:
->
-> ```text
-> Review Collection
-> +
-> Review Database
-> +
-> Review Monitoring
-> +
-> Social Listening
-> +
-> Surveys
-> +
-> CRM
-> +
-> Automation
-> +
-> Sentiment Analysis
-> +
-> Analytics
-> +
-> Website Widgets
-> ```
->
-> into one self-hosted reputation-management platform.
 
 ---
 
-# Open-Source Review Management Platforms
+## 💻 Open-Source Ecosystem & Shortlist
 
-## 1. reviewsup.io
+The open-source reputation management landscape is modular: while there is rarely a single monolithic drop-in replacement for Birdeye or Podium, combining specialized, community-driven projects provides complete data sovereignty, zero per-location vendor lock-in, and full architectural flexibility.
 
-**GitHub:** https://github.com/allenyan513/reviewsup.io
-
-An open-source review and testimonial management platform designed for collecting, managing and displaying customer feedback.
-
-### Features
-
-* Review collection
-* Testimonials
-* Review dashboard
-* Analytics
-* Embeddable reviews
-* API
-* SDK
-* Self-hosting
-* Data ownership
-* Docker support
-
-The project explicitly positions itself as a self-hosted review/testimonial management system.
-
-**Best for:**
-
-```text
-Self-hosted Review Collection
-+
-Testimonials
-+
-Embedded Reviews
-```
+> *Each category is sorted strictly descending by **GitHub Star Count** ⭐. Star badges link directly to the repository's stargazers.*
 
 ---
 
-# 2. Site Reviews
+### ⭐ Review & Testimonial Platforms
 
-**GitHub:** https://github.com/common-repository/site-reviews
+*Open-source engines and self-hosted tools dedicated to collecting, moderating, and publishing first-party customer reviews and testimonials.*
 
-Open-source WordPress review-management plugin.
+- **[Medusa (Reviews)](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+  *Extensible, open-source commerce and customer feedback platform.* Offers modular customer review, rating, and testimonial plugins with REST APIs, admin moderation dashboards, and multi-tenant capabilities.
 
-It provides review collection, moderation, verification, responses, widgets, blocks and shortcodes.
+- **[Site Reviews](https://github.com/pryley/site-reviews)** [![GitHub stars](https://img.shields.io/github/stars/pryley/site-reviews?style=social&color=white)](https://github.com/pryley/site-reviews/stargazers)  
+  *Comprehensive open-source WordPress review management plugin.* Provides review collection forms, star ratings, moderation workflows, admin responses, shortcodes, Gutenberg blocks, and structured JSON-LD schema.
 
-### Features
+- **[reviews-kits](https://github.com/reviews-kits-team/reviews-kits)** [![GitHub stars](https://img.shields.io/github/stars/reviews-kits-team/reviews-kits?style=social&color=white)](https://github.com/reviews-kits-team/reviews-kits/stargazers)  
+  *Self-hosted open-source testimonial and customer review platform.* Designed as an open-source alternative to commercial testimonial widgets, offering custom submission forms, admin analytics, embeddable walls, and REST API.
 
-* Reviews
-* Ratings
-* Testimonials
-* Moderation
-* Review verification
-* Review responses
-* Widgets
-* Shortcodes
-* Blocks
-* Review schema
-* WordPress integration
+- **[reviewsup.io](https://github.com/allenyan513/reviewsup.io)** [![GitHub stars](https://img.shields.io/github/stars/allenyan513/reviewsup.io?style=social&color=white)](https://github.com/allenyan513/reviewsup.io/stargazers)  
+  *Full-featured self-hosted review and testimonial management system.* Collects, manages, and embeds customer reviews and social proof with Docker deployment, SDK support, and full data ownership.
 
-**License:** GPLv3
+- **[testimate](https://github.com/bishaln/testimate)** [![GitHub stars](https://img.shields.io/github/stars/bishaln/testimate?style=social&color=white)](https://github.com/bishaln/testimate/stargazers)  
+  *Lightweight open-source testimonial collection platform.* Provides privacy-focused customer submission forms, moderation workflows, and embeddable website widgets.
 
----
+- **[reeverb](https://github.com/zaptech-dev/reeverb)** [![GitHub stars](https://img.shields.io/github/stars/zaptech-dev/reeverb?style=social&color=white)](https://github.com/zaptech-dev/reeverb/stargazers)  
+  *High-performance self-hosted testimonial platform built in Rust.* Features RESTful OpenAPI specifications, PostgreSQL storage, project tags, and lightweight social proof widgets.
 
-# 3. Reviewskits
+- **[vouchdock](https://github.com/TBSKR/vouchdock)** [![GitHub stars](https://img.shields.io/github/stars/TBSKR/vouchdock?style=social&color=white)](https://github.com/TBSKR/vouchdock/stargazers)  
+  *MIT-licensed self-hosted testimonial collection and moderation platform.* Supports text and video testimonials, star ratings, "Wall of Love" embeds, SQLite database, and zero runtime telemetry.
 
-**GitHub:** https://github.com/reviews-kits-team/reviews-kits
+- **[Creet.io](https://github.com/creet/creet.io)** [![GitHub stars](https://img.shields.io/github/stars/creet/creet.io?style=social&color=white)](https://github.com/creet/creet.io/stargazers)  
+  *Open-source testimonial and customer feedback management tool.* Backed by Supabase/PostgreSQL ecosystem with media collection, optional video testimonials, and responsive display widgets.
 
-Open-source, self-hosted testimonial/review platform.
+- **[testiwall](https://github.com/siinghd/testiwall)** [![GitHub stars](https://img.shields.io/github/stars/siinghd/testiwall?style=social&color=white)](https://github.com/siinghd/testiwall/stargazers)  
+  *Self-hosted testimonial collection and Wall of Love application.* Features text/video review submission, moderation, approval queues, webhook notifications, and social-import modules.
 
-### Features
-
-* Review forms
-* Review collection
-* Moderation
-* Dashboard
-* Analytics
-* REST API
-* SDK
-* Embeddable reviews
-* Custom forms
-* Self-hosting
-
-The project describes itself as an open-source, self-hosted alternative to commercial testimonial platforms.
-
-**License:** AGPL-3.0
+- **[testimonialflow](https://github.com/AkrMcmr/testimonialflow)** [![GitHub stars](https://img.shields.io/github/stars/AkrMcmr/testimonialflow?style=social&color=white)](https://github.com/AkrMcmr/testimonialflow/stargazers)  
+  *Open-source testimonial submission and review workflow app.* Provides customizable shareable links, review verification, and modern embed components.
 
 ---
 
-# 4. vouchdock
+### 📋 Surveys & Customer Feedback
 
-**GitHub:** https://github.com/TBSKR/vouchdock
+*In-app micro-surveys, Net Promoter Score (NPS) tracking, and structured customer feedback collection engines.*
 
-Open-source, self-hosted testimonial collection and moderation platform.
+- **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
+  *Leading open-source micro-survey and customer experience suite.* Trigger targeted CSAT, CES, and NPS surveys at specific points in the user journey with deep analytics and webhook integrations.
 
-### Features
+- **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers)  
+  *Conversational form builder for interactive feedback collection.* Embed chat-based review funnels, collect qualitative feedback, and dynamically route promoters to external review sites.
 
-* Text testimonials
-* Video testimonials
-* Star ratings
-* Collection forms
-* Moderation
-* Approval workflow
-* Wall of Love
-* Embedding
-* JSON API
-* SQLite
-* Docker
-* No external runtime telemetry
+- **[SurveyJS](https://github.com/surveyjs/survey-library)** [![GitHub stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers)  
+  *Extensible open-source JavaScript survey and form builder library.* Easily build complex multi-page customer satisfaction questionnaires, star rating grids, and embeddable forms.
 
-The project describes itself as an MIT-licensed self-hosted alternative to hosted testimonial platforms.
-
-**License:** MIT
+- **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers)  
+  *Veteran open-source statistical survey and enterprise customer polling system.* Supports advanced conditional logic, multilingual surveys, extensive token management, and detailed analytical exports.
 
 ---
 
-# 5. Creet.io
+### 👥 CRM, Customer Experience & Triage
 
-**GitHub:** https://github.com/creet/creet.io
+*Customer databases, multi-channel shared inboxes, and resolution platforms to triage negative reviews and support customer advocacy.*
 
-Open-source testimonial collection and management platform.
+- **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+  *Modern, developer-first open-source CRM.* Manage customer contacts, log review interactions, build custom reputation pipelines, and synchronize client satisfaction data across organizations.
 
-### Features
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+  *All-in-one open-source business management suite.* Features tightly integrated CRM, Customer Helpdesk, Marketing Automation, Survey, and Website Review modules.
 
-* Testimonial collection
-* Testimonial management
-* Customer feedback
-* Media
-* Embedding
-* Self-hosting
-* PostgreSQL/Supabase ecosystem
-* Optional video support
+- **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+  *Open-source omnichannel customer support and messaging infrastructure.* Unifies live chat, email, SMS, and social messaging to quickly intercept and resolve unhappy customers before negative reviews are posted.
 
----
+- **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers)  
+  *Enterprise-ready open-source CRM alternative to Salesforce.* Manages multi-location business accounts, customer contact histories, service tickets, and feedback workflows.
 
-# 6. Testimate
-
-**GitHub:** https://github.com/bishaln/testimate
-
-Open-source testimonial collection platform.
-
-### Features
-
-* Testimonial collection
-* Moderation
-* Customer testimonials
-* Display widgets
-* Privacy
-* Customization
-* Self-hosting
+- **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+  *Fast, highly customizable open-source CRM application.* Automates follow-up emails after transactions and records customer feedback histories across accounts and branches.
 
 ---
 
-# 7. Reeverb
+### 📬 Review Generation & Campaigns
 
-**GitHub:** https://github.com/zaptech-dev/reeverb
+*Notification engines, transactional email servers, scheduling backends, and URL shorteners to trigger review drip sequences.*
 
-Open-source self-hosted testimonial platform built with Rust.
+- **[Cal.com](https://github.com/calcom/cal.com)** [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)  
+  *Open-source scheduling infrastructure.* Trigger automated review generation invitations via webhooks immediately after an appointment, service call, or consultation is concluded.
 
-### Features
+- **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+  *Open-source notification orchestration infrastructure.* Design visual multi-channel review invitation workflows with email, SMS, push, and chat routing, delay steps, and vendor failover.
 
-* Testimonials
-* Projects
-* Tags
-* Dashboard
-* REST/OpenAPI
-* PostgreSQL
-* Self-hosting
-* Embeddable social proof
+- **[Listmonk](https://github.com/knadh/listmonk)** [![GitHub stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers)  
+  *High-performance, self-hosted newsletter and mailing list manager.* Packaged as a single Go binary backed by PostgreSQL, capable of delivering millions of segmented review invitation emails.
 
-The project is currently early-stage, so it should be evaluated accordingly.
+- **[Postal](https://github.com/postalserver/postal)** [![GitHub stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers)  
+  *Full-featured open-source mail delivery platform.* Self-hosted alternative to SendGrid and Postmark with complete inbound/outbound SMTP handling, click tracking, and webhooks for review emails.
 
----
+- **[Mautic](https://github.com/mautic/mautic)** [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
+  *Open-source marketing automation platform.* Build sophisticated multi-stage review request drip campaigns, trigger customer follow-ups, and segment advocates based on star ratings.
 
-# 8. Testiwall
-
-**GitHub:** https://github.com/siinghd/testiwall
-
-Self-hosted testimonial collection and "Wall of Love" platform.
-
-### Features
-
-* Text testimonials
-* Video testimonials
-* Moderation
-* Approval
-* Bulk actions
-* Export
-* Embeddable wall
-* Webhooks
-* Email modules
-* Social-import modules
+- **[Shlink](https://github.com/shlinkio/shlink)** [![GitHub stars](https://img.shields.io/github/stars/shlinkio/shlink?style=social&color=white)](https://github.com/shlinkio/shlink/stargazers)  
+  *Self-hosted open-source URL shortener with REST API.* Generate custom branded shortlinks for SMS and QR-code review campaigns with real-time click tracking and geolocation analytics.
 
 ---
 
-# 9. Review System
+### 📊 Forms, Internal Portals & Data Infrastructure
 
-**GitHub:** https://github.com/vasrem/review-system
+*Low-code internal tool builders, headless CMS platforms, and databases for building custom review moderation consoles.*
 
-A lightweight open-source business feedback system.
+- **[Supabase](https://github.com/supabase/supabase)** [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
+  *Open-source Firebase alternative.* Provides a managed PostgreSQL database, real-time change subscriptions, authentication, and auto-generated REST/GraphQL APIs for custom review backends.
 
-### Features
+- **[Strapi](https://github.com/strapi/strapi)** [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
+  *Leading open-source headless CMS.* Build structured review schemas, content moderation queues, user rating endpoints, and syndication APIs with fine-grained role-based permissions.
 
-* Review submission
-* Admin dashboard
-* Review management
-* Automated email
-* MongoDB
-* Node.js
-* Self-hosting
+- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
+  *Open-source smart spreadsheet and Airtable alternative.* Connects directly to PostgreSQL or MySQL databases to provide an intuitive grid view for moderating and tagging incoming reviews.
 
-This is a simpler project and is better viewed as a customizable starting point than as a mature enterprise alternative.
+- **[ToolJet](https://github.com/ToolJet/ToolJet)** [![GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers)  
+  *Low-code framework for building custom internal applications.* Assemble review triage dashboards, multi-location approval queues, and staff response interfaces in minutes.
 
----
+- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
+  *Open-source developer platform for internal tools.* Drag-and-drop UI components connected to SQL and REST backends to create custom multi-location review management dashboards.
 
-# 10. Testimonial Platform
+- **[Directus](https://github.com/directus/directus)** [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
+  *Instant REST and GraphQL APIs over any SQL database.* Wraps your review database in an intuitive data studio for non-technical community managers and review moderators.
 
-**GitHub:** https://github.com/Vishesh-Tripathi/-testimonial-platform
-
-A full-stack testimonial collection and moderation application.
-
-### Features
-
-* Customer testimonials
-* Moderation
-* Dashboard
-* Photos
-* Embeddable widgets
-* React
-* Node.js
-* MongoDB
+- **[Baserow](https://github.com/bram2w/baserow)** [![GitHub stars](https://img.shields.io/github/stars/bram2w/baserow?style=social&color=white)](https://github.com/bram2w/baserow/stargazers)  
+  *Open-source no-code relational database tool.* Organize customer feedback, catalog reviews by location, and collaborate on responses with custom view filters and forms.
 
 ---
 
-# 11. TestimonialFlow
+### 📈 Analytics & Reputation Dashboards
 
-**GitHub:** https://github.com/AkrMcmr/testimonialflow
+*Business intelligence suites and observability platforms for tracking Net Promoter Scores, review velocity, and ratings trends.*
 
-Open-source testimonial collection and display project.
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+  *Industry-standard visualization and metric dashboard.* Track live review counts, average star ratings across branches, response latency, and sentiment distributions in real time.
 
-### Workflow
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+  *Enterprise-ready business intelligence and data exploration platform.* Perform deep SQL queries and build interactive dashboards visualizing historical reputation trends across hundreds of locations.
 
-```text
-Share Link
-    ↓
-Customer submits testimonial
-    ↓
-Review
-    ↓
-Embed
-    ↓
-Website
-```
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+  *Simple, self-serve business analytics platform.* Allows non-technical business managers to ask questions, filter customer review metrics, and build automated reputation summary reports.
 
----
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+  *All-in-one open-source product analytics and session recording suite.* Connect website review widget interactions with user onboarding funnel conversion and in-app feedback surveys.
 
-# 12. Debrief
+- **[Umami](https://github.com/umami-software/umami)** [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
+  *Simple, privacy-respecting open-source web analytics.* Measure how website visitors interact with embedded review badges and testimonial widgets without tracking personal data.
 
-**GitHub:** https://github.com/anurieli/debrief
-
-Self-hosted automated testimonial system.
-
-### Workflow
-
-```text
-Video Request
-      ↓
-Customer Records Video
-      ↓
-AI Transcription
-      ↓
-AI Testimonial Generation
-      ↓
-Human Approval
-      ↓
-Website
-```
-
-MIT licensed according to its repository.
+- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
+  *Open-source search and visualization dashboard.* Explore massive customer review datasets, run text search queries across millions of feedback entries, and visualize negative keyword spikes.
 
 ---
 
-# Open-Source Review and Testimonial Collection
+### ⚡ Automation & Integration Workflows
 
-The following projects are particularly useful when the objective is:
+*Low-code integration engines and automated web agents for connecting publisher APIs, notifying teams, and syncing feedback.*
 
-```text
-"Collect my own first-party customer reviews."
-```
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+  *Leading fair-code workflow automation tool.* Essential glue connecting external review webhooks to AI sentiment classifiers, Slack notification channels, CRM records, and auto-response pipelines.
 
-| Project      | Collection | Moderation | Embed | API | Video | Self-host |
-| ------------ | ---------: | ---------: | ----: | --: | ----: | --------: |
-| reviewsup.io |          ✅ |          ✅ |     ✅ |   ✅ |     ◐ |         ✅ |
-| Reviewskits  |          ✅ |          ✅ |     ✅ |   ✅ |     ◐ |         ✅ |
-| vouchdock    |          ✅ |          ✅ |     ✅ |   ✅ |     ✅ |         ✅ |
-| Creet.io     |          ✅ |          ✅ |     ✅ |   ✅ |     ◐ |         ✅ |
-| Testimate    |          ✅ |          ✅ |     ✅ |   ◐ |     ◐ |         ✅ |
-| Reeverb      |          ✅ |          ✅ |     ◐ |   ✅ |     ❌ |         ✅ |
-| Testiwall    |          ✅ |          ✅ |     ✅ |   ✅ |     ✅ |         ✅ |
-| Site Reviews |          ✅ |          ✅ |     ✅ |   ◐ |     ◐ |         ✅ |
+- **[Huginn](https://github.com/huginn/huginn)** [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)  
+  *Self-hosted open-source agent system for web monitoring.* Set up automated agents that poll external review feeds, check website ratings, and trigger events when negative reviews appear.
+
+- **[Node-RED](https://github.com/node-red/node-red)** [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+  *Low-code flow-based programming tool.* Wire together incoming review webhooks, CRM databases, local POS terminals, and physical feedback kiosk tablets.
 
 ---
 
-# Open-Source Social Listening and Reputation Monitoring
+### 🔍 Social Listening & Web Monitoring
 
-A complete Birdeye/Reputation.com alternative requires monitoring external sources.
+*Tools to detect mentions, track brand conversations, and uncover public feedback outside traditional review directories.*
 
-## Apphera
+- **[SearXNG](https://github.com/searxng/searxng)** [![GitHub stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers)  
+  *Privacy-respecting open-source metasearch engine.* Aggregates results from 70+ search engines to discover unindexed brand mentions, blog reviews, forum complaints, and directory listings.
 
-**GitHub:** https://github.com/Kuew/social-media-monitoring-open-source
-
-Apphera is an older open-source social-media monitoring and reputation-management platform.
-
-Its described capabilities include:
-
-* Online review tracking
-* Competitor analysis
-* Social-media monitoring
-* SEO tracking
-* Twitter data mining
-* Facebook monitoring
-* Reputation management
-
-> **Status caution:** Apphera is historically significant but should be evaluated carefully for current maintenance and compatibility before production deployment.
+- **[Kuew Social Monitor](https://github.com/Kuew/social-media-monitoring-open-source)** [![GitHub stars](https://img.shields.io/github/stars/Kuew/social-media-monitoring-open-source?style=social&color=white)](https://github.com/Kuew/social-media-monitoring-open-source/stargazers)  
+  *Open-source social listening and media monitoring dashboard.* Track brand keywords, sentiment, and user reactions across digital communities.
 
 ---
 
-# Open-Source Social Listening Stack
+### 🧠 AI, NLP & Sentiment Analysis
 
-Rather than relying on a single project:
+*Local LLMs, transformer models, and NLP libraries to classify customer emotion, summarize feedback, and draft automated replies.*
 
-```text
-Mastodon / Social APIs
-        +
-RSS
-        +
-Webhooks
-        +
-Custom API Collectors
-        ↓
-     Kafka
-        ↓
-   OpenSearch
-        ↓
- Sentiment Analysis
-        ↓
- Reputation Dashboard
-```
+- **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+  *Get up and running with large language models locally.* Deploy Llama 3, Mistral, or Qwen on self-hosted GPU hardware to analyze review sentiment and generate context-aware response drafts privately.
 
-Useful open-source components include:
+- **[Transformers](https://github.com/huggingface/transformers)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+  *State-of-the-art machine learning library for PyTorch and TensorFlow.* Utilize pre-trained sentiment models (BERT, RoBERTa) to classify customer tone, urgency, and review emotion.
 
-* OpenSearch
-* Elasticsearch
-* Apache Kafka
-* RabbitMQ
-* NATS
-* RSS readers
-* Scrapy
-* Playwright
-* Selenium
-* Beautiful Soup
-* Huginn
-* n8n
-* Node-RED
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+  *Framework for developing applications powered by LLMs.* Create automated review-response chains that reference company FAQs, tone guidelines, and resolution policies.
 
----
+- **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
+  *Deep learning framework with GPU acceleration.* Foundation for training proprietary deep-learning classifiers on domain-specific customer feedback and multi-class sentiment corpora.
 
-# Open-Source Surveys and Customer Feedback
+- **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+  *High-throughput and memory-efficient LLM serving engine.* Powers sub-second response generation for large-scale multi-location review monitoring platforms.
 
-## LimeSurvey
+- **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+  *Machine learning in Python.* Train fast TF-IDF and SVM classifiers for instant review sentiment prediction, language detection, and spam review identification.
 
-**GitHub:** https://github.com/LimeSurvey/LimeSurvey
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+  *Data framework for LLM-based query engines.* Index historical review archives and customer feedback databases for semantic search and automated trend summarization.
 
-**Website:** https://www.limesurvey.org/
+- **[spaCy](https://github.com/explosion/spaCy)** [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
+  *Industrial-strength Natural Language Processing in Python.* Fast tokenization, lemmatization, named entity recognition (NER), and rule-based phrase matching over customer reviews.
 
-One of the most established open-source survey platforms.
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+  *Open-source LLM orchestration framework by deepset.* Build production retrieval-augmented generation (RAG) pipelines over multi-year customer feedback archives.
 
-### Useful for
+- **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)  
+  *Transformer-based topic modeling technique.* Clusters unstructured customer review text into easily interpretable topics to discover why customers rate businesses 1-star or 5-stars.
 
-* Customer satisfaction
-* NPS
-* CSAT
-* Customer feedback
-* Post-service surveys
-* Feedback routing
-* Research
+- **[VADER Sentiment](https://github.com/cjhutto/vaderSentiment)** [![GitHub stars](https://img.shields.io/github/stars/cjhutto/vaderSentiment?style=social&color=white)](https://github.com/cjhutto/vaderSentiment/stargazers)  
+  *Rule-based sentiment analysis tool.* Specifically tuned for social media comments, customer reviews, emojis, and informal star-rating text with zero GPU requirements.
 
 ---
 
-# Formbricks
-
-**GitHub:** https://github.com/formbricks/formbricks
-
-Open-source survey and experience-management platform.
-
-### Useful for
-
-* NPS
-* Surveys
-* Feedback
-* Product experience
-* Customer feedback
-* In-app surveys
-* Website surveys
-
 ---
 
-# SurveyJS
+## 🔎 SEO & Search Intent Overview
 
-**GitHub:** https://github.com/surveyjs/survey-library
+### 🏷️ Target Search Keywords & Topics
+`Review Management Platform` · `Online Reputation Management (ORM)` · `Review Monitoring Software` · `Customer Feedback System` · `Automated Review Requests` · `Google Review Automation` · `Birdeye Open Source Alternative` · `Podium Open Source Alternative` · `Yext Reviews Alternative` · `Self-Hosted Testimonial Platform` · `Review Generation SMS Email` · `Sentiment Analysis for Customer Reviews` · `Multi-Location Local SEO` · `Review Widget Embedding` · `Trustpilot Business Alternative`
 
-Developer-oriented open-source survey framework.
+### 💡 Decision Matrix: Enterprise SaaS vs. Self-Hosted Open Source
 
-Useful for creating:
-
-* Feedback forms
-* NPS surveys
-* CSAT
-* Customer questionnaires
-* Review-request workflows
-
----
-
-# Open-Source CRM and Customer Experience
-
-A review-management platform becomes much more useful when connected to customer records.
-
-## SuiteCRM
-
-**GitHub:** https://github.com/SuiteCRM/SuiteCRM
-
-**Website:** https://suitecrm.com/
-
-Useful for:
-
-* Customer management
-* Contacts
-* Accounts
-* Service history
-* Campaigns
-* Customer segmentation
+| Architectural Criterion | 🏢 Commercial SaaS (Birdeye, Podium, Yext) | 💻 Self-Hosted Open-Source Stack |
+| :--- | :--- | :--- |
+| **Setup Velocity** | ⚡ Instant (Plug-and-play cloud dashboards) | ⏳ Hours to Days (Docker, database, reverse proxy) |
+| **Direct Publisher APIs** | 🛡️ Official partner relationships with Google, Facebook, Yelp | 🔌 Requires custom API keys, webhooks, or official integrations |
+| **Data Sovereignty** | 🌐 Stored on vendor cloud subject to their privacy policies | 🔒 100% on-premise data ownership and GDPR compliance |
+| **Cost at Scale** | 📈 Scales linearly per location ($50–$399+/location/mo) | 💰 Flat server hosting cost regardless of location count |
+| **Custom AI & Prompting** | 🤖 Pre-set vendor templates with optional paid add-ons | 🧠 Unlimited customization with local LLMs (Ollama, vLLM) |
+| **White-Label Control** | 🏷️ Available on expensive agency tiers ($400+/mo) | 🎨 100% white-label freedom with zero licensing royalties |
 
 ---
-
-# EspoCRM
-
-**GitHub:** https://github.com/espocrm/espocrm
-
-Open-source CRM platform useful for connecting:
-
-```text
-Customer
-   ↓
-Transaction
-   ↓
-Service
-   ↓
-Review Request
-   ↓
-Review
-```
-
----
-
-# Twenty CRM
-
-**GitHub:** https://github.com/twentyhq/twenty
-
-Modern open-source CRM.
-
-Useful for:
-
-* Customer profiles
-* Contacts
-* Accounts
-* Workflows
-* Custom fields
-* Integrations
-
----
-
-# Odoo Community
-
-**GitHub:** https://github.com/odoo/odoo
-
-Useful for integrating:
-
-* CRM
-* Sales
-* Customer service
-* Marketing
-* Surveys
-* Website
-* Email
-* Customer data
-
----
-
-# Open-Source Marketing Automation
-
-## Mautic
-
-**GitHub:** https://github.com/mautic/mautic
-
-Useful for automated review-generation campaigns.
-
-Example:
-
-```text
-Completed Service
-       ↓
-Mautic
-       ↓
-Wait 24 Hours
-       ↓
-SMS / Email
-       ↓
-Review Request
-       ↓
-Google / First-Party Review
-```
-
----
-
-# Listmonk
-
-**GitHub:** https://github.com/knadh/listmonk
-
-Self-hosted newsletter and mailing-list platform.
-
-Useful for:
-
-* Review campaigns
-* Customer follow-up
-* Email campaigns
-* Segmentation
-
----
-
-# Postal
-
-**GitHub:** https://github.com/postalserver/postal
-
-Self-hosted mail delivery platform.
-
-Useful for organizations wanting to control review-request email infrastructure.
-
----
-
-# Open-Source Forms and Data Collection
-
-## Formbricks
-
-Useful for:
-
-```text
-NPS
-+
-CSAT
-+
-Feedback
-+
-Survey
-+
-Review Intent
-```
-
----
-
-## Typebot
-
-**GitHub:** https://github.com/baptisteArno/typebot.io
-
-Open-source conversational form builder.
-
-Useful for:
-
-* Feedback collection
-* Customer qualification
-* Review-request workflows
-* Complaint routing
-
----
-
-## NocoDB
-
-**GitHub:** https://github.com/nocodb/nocodb
-
-Turns databases into spreadsheet-style applications.
-
-Useful for building:
-
-```text
-Customer Database
-+
-Review Database
-+
-Location Database
-+
-Campaign Database
-```
-
----
-
-## Baserow
-
-**GitHub:** https://github.com/bramw/baserow
-
-Open-source database and no-code platform.
-
-Useful for rapid reputation-management prototypes.
-
----
-
-# Open-Source Analytics
-
-## Metabase
-
-**GitHub:** https://github.com/metabase/metabase
-
-Useful for:
-
-* Review volume
-* Average rating
-* Sentiment
-* Response rate
-* Location performance
-* Campaign conversion
-
----
-
-# Apache Superset
-
-**GitHub:** https://github.com/apache/superset
-
-Useful for:
-
-* Executive dashboards
-* Multi-location reputation dashboards
-* Review trends
-* Competitive analytics
-
----
-
-# Grafana
-
-**GitHub:** https://github.com/grafana/grafana
-
-Useful for real-time:
-
-```text
-Review Volume
-Rating
-Sentiment
-Response Time
-Review Requests
-Conversion
-```
-
----
-
-# OpenSearch Dashboards
-
-**GitHub:** https://github.com/opensearch-project/OpenSearch-Dashboards
-
-Excellent for large-scale review and reputation-event analytics.
-
----
-
-# Open-Source Automation and Integration
-
-## n8n
-
-**GitHub:** https://github.com/n8n-io/n8n
-
-One of the most important building blocks for an open-source review-management platform.
-
-Example:
-
-```text
-CRM
- ↓
-n8n
- ↓
-Customer completed service
- ↓
-Wait
- ↓
-Send review request
- ↓
-Collect response
- ↓
-Store review
- ↓
-Analyze sentiment
- ↓
-Notify team
-```
-
----
-
-# Node-RED
-
-**GitHub:** https://github.com/node-red/node-red
-
-Useful for event-driven review workflows.
-
----
-
-# Huginn
-
-**GitHub:** https://github.com/huginn/huginn
-
-Agent-based automation system.
-
-Potential uses:
-
-* Website monitoring
-* RSS monitoring
-* Keyword alerts
-* Competitor monitoring
-* Review-source monitoring
-* Notification workflows
-
----
-
-# Open-Source AI and Sentiment Analysis
-
-A modern review-management platform needs NLP.
-
-## Hugging Face Transformers
-
-**GitHub:** https://github.com/huggingface/transformers
-
-Useful for:
-
-* Sentiment classification
-* Topic extraction
-* Summarization
-* Review classification
-* Response generation
-* Language detection
-
----
-
-# spaCy
-
-**GitHub:** https://github.com/explosion/spaCy
-
-Useful for:
-
-* NLP pipelines
-* Entity extraction
-* Text classification
-* Topic processing
-
----
-
-# scikit-learn
-
-**GitHub:** https://github.com/scikit-learn/scikit-learn
-
-Useful for:
-
-* Sentiment models
-* Review classification
-* Churn prediction
-* Customer segmentation
-* Anomaly detection
-
----
-
-# PyTorch
-
-**GitHub:** https://github.com/pytorch/pytorch
-
-Useful for custom review intelligence models.
-
----
-
-# Ollama
-
-**GitHub:** https://github.com/ollama/ollama
-
-Useful for locally hosted LLM-powered:
-
-* Review summarization
-* Response generation
-* Sentiment analysis
-* Topic extraction
-* Complaint classification
-* Review categorization
-
----
-
-# Open-Source Search and Data Infrastructure
-
-## PostgreSQL
-
-**Website:** https://www.postgresql.org/
-
-Primary transactional database.
-
-Store:
-
-```text
-Customers
-Locations
-Reviews
-Ratings
-Campaigns
-Responses
-Sentiment
-Topics
-Users
-Permissions
-```
-
----
-
-# Redis
-
-**Website:** https://redis.io/
-
-Useful for:
-
-* Caching
-* Rate limiting
-* Queues
-* Real-time reputation scores
-* Job state
-
----
-
-# OpenSearch
-
-Useful for full-text review search:
-
-```text
-Search:
-"billing problem"
-"waiting time"
-"poor service"
-"friendly staff"
-"doctor"
-"delivery"
-```
-
----
-
-# Apache Kafka
-
-Useful when thousands or millions of review events need to be processed.
-
-```text
-Review Sources
-     ↓
-   Kafka
-     ↓
- ┌───┼────┬───────┐
- ↓   ↓    ↓       ↓
-NLP DB  Alerts Analytics
-```
-
----
-
-# Review Aggregation Architecture
+## 🏗️ Review Aggregation Architecture
 
 ```mermaid
 flowchart TD
@@ -1127,7 +442,7 @@ K --> O[Analytics]
 
 ---
 
-# Review Generation Architecture
+## 🚀 Review Generation Architecture
 
 ```mermaid
 flowchart LR
@@ -1156,7 +471,7 @@ H --> K[Review Monitoring]
 
 ---
 
-# Review Response Architecture
+## 💬 Review Response Architecture
 
 ```mermaid
 flowchart TD
@@ -1185,7 +500,7 @@ I --> J[Audit Log]
 
 ---
 
-# Reputation Intelligence Architecture
+## 🧠 Reputation Intelligence Architecture
 
 ```mermaid
 flowchart TB
@@ -1221,7 +536,7 @@ K --> N[AI Recommendations]
 
 ---
 
-# Commercial → Open-Source Mapping
+## 🗺️ Commercial → Open-Source Mapping
 
 | Commercial Platform           | Open-Source / Self-Hosted Equivalent                                |
 | ----------------------------- | ------------------------------------------------------------------- |
@@ -1248,7 +563,7 @@ K --> N[AI Recommendations]
 
 ---
 
-# Capability Matrix
+## 📊 Capability Matrix
 
 | Platform       | Reviews | Generation | Response | Sentiment | AI | Multi-Location | White Label | Open Source |
 | -------------- | ------: | ---------: | -------: | --------: | -: | -------------: | ----------: | ----------: |
@@ -1283,7 +598,7 @@ Legend:
 
 ---
 
-# Recommended Open-Source Stacks
+## 💡 Recommended Open-Source Stacks
 
 # 1. Best Overall Review Management
 
@@ -1333,7 +648,7 @@ Metabase
 
 ---
 
-# 2. Best Enterprise Open-Source Architecture
+### 🏢 2. Best Enterprise Open-Source Architecture
 
 ```text
 PostgreSQL
@@ -1373,7 +688,7 @@ AI
 
 ---
 
-# 3. Best WordPress Architecture
+### 🌐 3. Best WordPress Architecture
 
 ```text
 WordPress
@@ -1401,7 +716,7 @@ Best for:
 
 ---
 
-# 4. Best Agency / White-Label Architecture
+### 🏷️ 4. Best Agency / White-Label Architecture
 
 ```text
 Reviewskits
@@ -1511,7 +826,7 @@ Simple Review Collection
 
 ---
 
-# What Open Source Can Replace
+## ✅ What Open Source Can Replace
 
 With enough integration and development, open-source software can reproduce many core review-management functions.
 
@@ -1623,7 +938,7 @@ QR Codes
 
 ---
 
-## Reputation Dashboard
+### 📊 Reputation Dashboard
 
 Possible using:
 
@@ -1639,7 +954,7 @@ PostgreSQL
 
 ---
 
-# What Open Source Cannot Replace Automatically
+## ❌ What Open Source Cannot Replace Automatically
 
 The largest gap between an open-source stack and platforms such as Birdeye, Yext or Reputation.com is **data access**.
 
@@ -1684,7 +999,7 @@ where available.
 
 ---
 
-# The Major Open-Source Gap
+## ⚠️ The Major Open-Source Gap
 
 Commercial platforms often provide:
 
@@ -1720,7 +1035,7 @@ rather than a single GitHub repository.
 
 ---
 
-# Open-Source Review Platform Blueprint
+## 📐 Open-Source Review Platform Blueprint
 
 ```mermaid
 flowchart TB
@@ -1759,7 +1074,7 @@ H --> O
 
 ---
 
-# Multi-Location Architecture
+## 🌐 Multi-Location Architecture
 
 For franchises and enterprise organizations:
 
@@ -1800,7 +1115,7 @@ Review
 
 ---
 
-# Review Monitoring Workflow
+## 🔔 Review Monitoring Workflow
 
 ```mermaid
 sequenceDiagram
@@ -1824,7 +1139,7 @@ D->>Source: Publish Response
 
 ---
 
-# Review Generation Workflow
+## 📩 Review Generation Workflow
 
 ```mermaid
 flowchart LR
@@ -1853,7 +1168,7 @@ J --> K[Service Improvement]
 
 ---
 
-# Sentiment Analysis Workflow
+## 🧠 Sentiment Analysis Workflow
 
 ```mermaid
 flowchart TD
@@ -1890,7 +1205,7 @@ M --> N
 
 ---
 
-# Review Response Workflow
+## ✍️ Review Response Workflow
 
 A production response engine should not simply generate text.
 
@@ -1951,7 +1266,7 @@ The final response should preferably be reviewed according to the organization's
 
 ---
 
-# Reputation Dashboard
+## 📊 Reputation Dashboard
 
 A complete dashboard can include:
 
@@ -2171,7 +1486,7 @@ Waiting-time complaints decline
 
 ---
 
-# Event-Driven Architecture
+## ⚡ Event-Driven Architecture
 
 ```mermaid
 flowchart LR
@@ -2204,7 +1519,7 @@ CAMPAIGN --> M[Marketing Automation]
 
 ---
 
-# API-First Architecture
+## 🔌 API-First Architecture
 
 A good open-source implementation should expose:
 
@@ -2286,7 +1601,7 @@ Organization
 
 ---
 
-# Review Source Adapter Architecture
+## 🔌 Review Source Adapter Architecture
 
 ```mermaid
 flowchart TB
@@ -2314,7 +1629,7 @@ This approach avoids hard-coding the entire platform around one review publisher
 
 ---
 
-# Multi-Tenant Architecture
+## 👥 Multi-Tenant Architecture
 
 For a SaaS-like open-source deployment:
 
@@ -2344,7 +1659,7 @@ Tenant isolation should cover:
 
 ---
 
-# Security and Privacy
+## 🔒 Security and Privacy
 
 Review-management platforms often process personal information.
 
@@ -2436,7 +1751,7 @@ Respect publisher policies
 
 ---
 
-# Licensing Considerations
+## 📄 Licensing Considerations
 
 Always verify the current license before commercial deployment.
 
@@ -2469,7 +1784,7 @@ Particularly evaluate:
 
 ---
 
-# Open-Source Maturity Categories
+## ⚖️ Open-Source Maturity Categories
 
 ## Production-oriented
 
@@ -2509,7 +1824,7 @@ Potential foundations:
 
 ---
 
-# Top Open-Source Shortlist
+## 🏆 Top Open-Source Shortlist
 
 ## Tier 1 — Core Review Platforms
 
@@ -2569,7 +1884,7 @@ Potential foundations:
 
 ---
 
-# Best Open-Source Choice by Requirement
+## 🎯 Best Open-Source Choice by Requirement
 
 | Requirement                   | Recommended                     |
 | ----------------------------- | ------------------------------- |
@@ -2592,7 +1907,7 @@ Potential foundations:
 
 ---
 
-# Closest Open-Source Equivalent to Birdeye
+### 🦅 Closest Open-Source Equivalent to Birdeye
 
 There is no single drop-in replacement.
 
@@ -2650,7 +1965,7 @@ Formbricks
 
 ---
 
-# Closest Open-Source Equivalent to Podium
+### 📱 Closest Open-Source Equivalent to Podium
 
 Podium combines reviews, messaging and customer communication.
 
@@ -2674,7 +1989,7 @@ OpenSearch
 
 ---
 
-# Closest Open-Source Equivalent to Yext Reviews
+### 🌐 Closest Open-Source Equivalent to Yext Reviews
 
 Yext combines reviews with a broader knowledge/listings ecosystem.
 
@@ -2698,7 +2013,7 @@ Custom Listings Database
 
 ---
 
-# Closest Open-Source Equivalent to ReviewTrackers
+### 📊 Closest Open-Source Equivalent to ReviewTrackers
 
 ```text
 Review Collectors
@@ -2716,7 +2031,7 @@ Metabase
 
 ---
 
-# Closest Open-Source Equivalent to NiceJob
+### ⭐ Closest Open-Source Equivalent to NiceJob
 
 ```text
 reviewsup.io
@@ -2732,7 +2047,7 @@ OpenSearch
 
 ---
 
-# Closest Open-Source Equivalent to Broadly
+### 💬 Closest Open-Source Equivalent to Broadly
 
 Because Broadly combines reviews with communication and local-business workflows:
 
@@ -2754,7 +2069,7 @@ Metabase
 
 ---
 
-# Closest Open-Source Equivalent to Grade.us
+### 🏷️ Closest Open-Source Equivalent to Grade.us
 
 Grade.us is particularly agency/white-label oriented.
 
@@ -2776,7 +2091,7 @@ Custom White-Label Frontend
 
 ---
 
-# Closest Open-Source Equivalent to Trustpilot Business
+### 🛡️ Closest Open-Source Equivalent to Trustpilot Business
 
 Trustpilot's public review ecosystem is difficult to reproduce because its value comes partly from its large independent review network.
 
@@ -2798,7 +2113,7 @@ AI/NLP
 
 ---
 
-# Closest Open-Source Equivalent to Reputation.com
+### 🏛️ Closest Open-Source Equivalent to Reputation.com
 
 ```text
 OpenSearch
@@ -2820,7 +2135,7 @@ n8n
 
 ---
 
-# Closest Open-Source Equivalent to Synup
+### 📍 Closest Open-Source Equivalent to Synup
 
 Synup combines reviews with local marketing and listings.
 
@@ -2844,7 +2159,7 @@ Local SEO Data
 
 ---
 
-# Complete Open-Source Review Management Platform
+## 🧩 Complete Open-Source Review Management Platform
 
 ```mermaid
 flowchart TB
@@ -2905,7 +2220,7 @@ DASHBOARD --> ALERTS[Alerts]
 
 ---
 
-# The Ideal Open-Source Review Management Stack
+## 🌟 The Ideal Open-Source Review Management Stack
 
 ```text
                        CUSTOMERS
@@ -2999,7 +2314,7 @@ services:
 
 ---
 
-# Kubernetes Architecture
+## ☸️ Kubernetes Architecture
 
 For enterprise-scale deployment:
 
@@ -3194,7 +2509,7 @@ Review Classification
 
 ---
 
-# The Best Fully Open-Source Alternative to Birdeye / Yext / Reputation
+## 🏅 The Best Fully Open-Source Alternative to Birdeye / Yext / Reputation
 
 For an organization primarily interested in **open source**, the most practical architecture is:
 
@@ -3261,7 +2576,7 @@ OPEN-SOURCE EXTENSIBILITY
 
 ---
 
-# Conclusion
+## 🏁 Conclusion
 
 Modern Review Management is evolving from a simple:
 
@@ -3345,42 +2660,58 @@ Please submit:
 * Licensing corrections
 
 ---
+---
 
-# Disclaimer
+## 💡 Recommended Starting Stack
 
-This README is intended as a technical reference and architectural comparison.
+```text
+reviewsup.io / Reviewskits (Review Capture & Widgets)
++
+n8n (Workflow Automation & Ingestion Webhooks)
++
+Mautic / Novu (Multi-Channel Email & SMS Review Campaigns)
++
+PostgreSQL / Supabase (Persistent Review Database)
++
+OpenSearch (Full-Text Search & Topic Aggregation)
++
+Formbricks (In-App Feedback & NPS Micro-Surveys)
++
+Ollama / Hugging Face (Local LLM Sentiment & Auto-Reply Drafting)
++
+Metabase / Grafana (Real-Time Reputation & Multi-Location Metrics)
+```
 
-Commercial features, APIs, integrations, publisher policies, pricing, licenses and project maintenance status change over time. Always verify the current documentation, API terms, publisher policies and software licenses before production deployment.
-
-Open-source projects listed here vary substantially in maturity. Some are production-oriented, while others are smaller or early-stage projects that may be better suited to experimentation or customization.
-
-In particular, **open-source review software does not automatically provide authorized access to every third-party review platform**. Use official APIs, approved integrations or customer-owned data wherever applicable.
+**For an open-source-first organization, this modular architecture represents the most practical, cost-effective, and scalable foundation for building a production-grade alternative to modern commercial Review Management and Online Reputation Management platforms.**
 
 ---
 
-# Recommended Starting Stack
+## 🤝 How to Contribute
 
-```text
-reviewsup.io / Reviewskits
-+
-n8n
-+
-Mautic
-+
-PostgreSQL
-+
-OpenSearch
-+
-Formbricks
-+
-Ollama
-+
-Hugging Face
-+
-Metabase
-+
-Grafana
-```
+Contributions, updates, and corrections are welcome! 🎉
 
-**For an open-source-first organization, this is one of the most practical architectures for building a self-hosted alternative to modern Review Management and Reputation Management platforms.**
+1. Fork this repository 🍴
+2. Add or update entries adhering to the tabular or category format (keep descriptions objective, verified, and concise).
+3. Ensure every open-source repository badge follows the standard format: `[![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
+4. Check out the overarching [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) collection for more curated developer and infrastructure guides.
+5. Submit a Pull Request with a clear summary of your changes 🚀
 
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Review-Management-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Review-Management-Platform&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This repository is a community-curated technical reference and architectural comparison guide.
+- Commercial features, pricing tiers, API terms, publisher access rules, and open-source project maintenance statuses evolve continuously. Always verify the current vendor documentation and publisher guidelines before production deployment.
+- Self-hosted review software does not automatically grant authorized access to third-party publisher APIs. Always utilize official developer APIs or approved partner connectors.
+
+---
+
+<p align="center">
+  <strong>Curated with ❤️ for software engineers, digital marketing teams, and agency leaders worldwide.</strong>
+</p>
