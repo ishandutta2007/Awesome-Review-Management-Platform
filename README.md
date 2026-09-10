@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Review-Management-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Review-Management-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Review-Management-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Review-Management-Platform/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -175,34 +175,34 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Open-source engines and self-hosted tools dedicated to collecting, moderating, and publishing first-party customer reviews and testimonials.*
 
-- **[Medusa (Reviews)](https://github.com/medusajs/medusa)** [![GitHub stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
+- **[Medusa (Reviews)](https://github.com/medusajs/medusa)** [![GitHub_Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
   *Extensible, open-source commerce and customer feedback platform.* Offers modular customer review, rating, and testimonial plugins with REST APIs, admin moderation dashboards, and multi-tenant capabilities.
 
-- **[Site Reviews](https://github.com/pryley/site-reviews)** [![GitHub stars](https://img.shields.io/github/stars/pryley/site-reviews?style=social&color=white)](https://github.com/pryley/site-reviews/stargazers)  
+- **[Site Reviews](https://github.com/pryley/site-reviews)** [![GitHub_Stars](https://img.shields.io/github/stars/pryley/site-reviews?style=social&color=white)](https://github.com/pryley/site-reviews/stargazers)  
   *Comprehensive open-source WordPress review management plugin.* Provides review collection forms, star ratings, moderation workflows, admin responses, shortcodes, Gutenberg blocks, and structured JSON-LD schema.
 
-- **[reviews-kits](https://github.com/reviews-kits-team/reviews-kits)** [![GitHub stars](https://img.shields.io/github/stars/reviews-kits-team/reviews-kits?style=social&color=white)](https://github.com/reviews-kits-team/reviews-kits/stargazers)  
+- **[reviews-kits](https://github.com/reviews-kits-team/reviews-kits)** [![GitHub_Stars](https://img.shields.io/github/stars/reviews-kits-team/reviews-kits?style=social&color=white)](https://github.com/reviews-kits-team/reviews-kits/stargazers)  
   *Self-hosted open-source testimonial and customer review platform.* Designed as an open-source alternative to commercial testimonial widgets, offering custom submission forms, admin analytics, embeddable walls, and REST API.
 
-- **[reviewsup.io](https://github.com/allenyan513/reviewsup.io)** [![GitHub stars](https://img.shields.io/github/stars/allenyan513/reviewsup.io?style=social&color=white)](https://github.com/allenyan513/reviewsup.io/stargazers)  
+- **[reviewsup.io](https://github.com/allenyan513/reviewsup.io)** [![GitHub_Stars](https://img.shields.io/github/stars/allenyan513/reviewsup.io?style=social&color=white)](https://github.com/allenyan513/reviewsup.io/stargazers)  
   *Full-featured self-hosted review and testimonial management system.* Collects, manages, and embeds customer reviews and social proof with Docker deployment, SDK support, and full data ownership.
 
-- **[testimate](https://github.com/bishaln/testimate)** [![GitHub stars](https://img.shields.io/github/stars/bishaln/testimate?style=social&color=white)](https://github.com/bishaln/testimate/stargazers)  
+- **[testimate](https://github.com/bishaln/testimate)** [![GitHub_Stars](https://img.shields.io/github/stars/bishaln/testimate?style=social&color=white)](https://github.com/bishaln/testimate/stargazers)  
   *Lightweight open-source testimonial collection platform.* Provides privacy-focused customer submission forms, moderation workflows, and embeddable website widgets.
 
-- **[reeverb](https://github.com/zaptech-dev/reeverb)** [![GitHub stars](https://img.shields.io/github/stars/zaptech-dev/reeverb?style=social&color=white)](https://github.com/zaptech-dev/reeverb/stargazers)  
+- **[reeverb](https://github.com/zaptech-dev/reeverb)** [![GitHub_Stars](https://img.shields.io/github/stars/zaptech-dev/reeverb?style=social&color=white)](https://github.com/zaptech-dev/reeverb/stargazers)  
   *High-performance self-hosted testimonial platform built in Rust.* Features RESTful OpenAPI specifications, PostgreSQL storage, project tags, and lightweight social proof widgets.
 
-- **[vouchdock](https://github.com/TBSKR/vouchdock)** [![GitHub stars](https://img.shields.io/github/stars/TBSKR/vouchdock?style=social&color=white)](https://github.com/TBSKR/vouchdock/stargazers)  
+- **[vouchdock](https://github.com/TBSKR/vouchdock)** [![GitHub_Stars](https://img.shields.io/github/stars/TBSKR/vouchdock?style=social&color=white)](https://github.com/TBSKR/vouchdock/stargazers)  
   *MIT-licensed self-hosted testimonial collection and moderation platform.* Supports text and video testimonials, star ratings, "Wall of Love" embeds, SQLite database, and zero runtime telemetry.
 
-- **[Creet.io](https://github.com/creet/creet.io)** [![GitHub stars](https://img.shields.io/github/stars/creet/creet.io?style=social&color=white)](https://github.com/creet/creet.io/stargazers)  
+- **[Creet.io](https://github.com/creet/creet.io)** [![GitHub_Stars](https://img.shields.io/github/stars/creet/creet.io?style=social&color=white)](https://github.com/creet/creet.io/stargazers)  
   *Open-source testimonial and customer feedback management tool.* Backed by Supabase/PostgreSQL ecosystem with media collection, optional video testimonials, and responsive display widgets.
 
-- **[testiwall](https://github.com/siinghd/testiwall)** [![GitHub stars](https://img.shields.io/github/stars/siinghd/testiwall?style=social&color=white)](https://github.com/siinghd/testiwall/stargazers)  
+- **[testiwall](https://github.com/siinghd/testiwall)** [![GitHub_Stars](https://img.shields.io/github/stars/siinghd/testiwall?style=social&color=white)](https://github.com/siinghd/testiwall/stargazers)  
   *Self-hosted testimonial collection and Wall of Love application.* Features text/video review submission, moderation, approval queues, webhook notifications, and social-import modules.
 
-- **[testimonialflow](https://github.com/AkrMcmr/testimonialflow)** [![GitHub stars](https://img.shields.io/github/stars/AkrMcmr/testimonialflow?style=social&color=white)](https://github.com/AkrMcmr/testimonialflow/stargazers)  
+- **[testimonialflow](https://github.com/AkrMcmr/testimonialflow)** [![GitHub_Stars](https://img.shields.io/github/stars/AkrMcmr/testimonialflow?style=social&color=white)](https://github.com/AkrMcmr/testimonialflow/stargazers)  
   *Open-source testimonial submission and review workflow app.* Provides customizable shareable links, review verification, and modern embed components.
 
 ---
@@ -211,16 +211,16 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *In-app micro-surveys, Net Promoter Score (NPS) tracking, and structured customer feedback collection engines.*
 
-- **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
+- **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
   *Leading open-source micro-survey and customer experience suite.* Trigger targeted CSAT, CES, and NPS surveys at specific points in the user journey with deep analytics and webhook integrations.
 
-- **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers)  
+- **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub_Stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers)  
   *Conversational form builder for interactive feedback collection.* Embed chat-based review funnels, collect qualitative feedback, and dynamically route promoters to external review sites.
 
-- **[SurveyJS](https://github.com/surveyjs/survey-library)** [![GitHub stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers)  
+- **[SurveyJS](https://github.com/surveyjs/survey-library)** [![GitHub_Stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers)  
   *Extensible open-source JavaScript survey and form builder library.* Easily build complex multi-page customer satisfaction questionnaires, star rating grids, and embeddable forms.
 
-- **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers)  
+- **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub_Stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers)  
   *Veteran open-source statistical survey and enterprise customer polling system.* Supports advanced conditional logic, multilingual surveys, extensive token management, and detailed analytical exports.
 
 ---
@@ -229,19 +229,19 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Customer databases, multi-channel shared inboxes, and resolution platforms to triage negative reviews and support customer advocacy.*
 
-- **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+- **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
   *Modern, developer-first open-source CRM.* Manage customer contacts, log review interactions, build custom reputation pipelines, and synchronize client satisfaction data across organizations.
 
-- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   *All-in-one open-source business management suite.* Features tightly integrated CRM, Customer Helpdesk, Marketing Automation, Survey, and Website Review modules.
 
-- **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+- **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
   *Open-source omnichannel customer support and messaging infrastructure.* Unifies live chat, email, SMS, and social messaging to quickly intercept and resolve unhappy customers before negative reviews are posted.
 
-- **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** [![GitHub stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers)  
+- **[SuiteCRM](https://github.com/SuiteCRM/SuiteCRM)** [![GitHub_Stars](https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=social&color=white)](https://github.com/SuiteCRM/SuiteCRM/stargazers)  
   *Enterprise-ready open-source CRM alternative to Salesforce.* Manages multi-location business accounts, customer contact histories, service tickets, and feedback workflows.
 
-- **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+- **[EspoCRM](https://github.com/espocrm/espocrm)** [![GitHub_Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
   *Fast, highly customizable open-source CRM application.* Automates follow-up emails after transactions and records customer feedback histories across accounts and branches.
 
 ---
@@ -250,22 +250,22 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Notification engines, transactional email servers, scheduling backends, and URL shorteners to trigger review drip sequences.*
 
-- **[Cal.com](https://github.com/calcom/cal.com)** [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)  
+- **[Cal.com](https://github.com/calcom/cal.com)** [![GitHub_Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)  
   *Open-source scheduling infrastructure.* Trigger automated review generation invitations via webhooks immediately after an appointment, service call, or consultation is concluded.
 
-- **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+- **[Novu](https://github.com/novuhq/novu)** [![GitHub_Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
   *Open-source notification orchestration infrastructure.* Design visual multi-channel review invitation workflows with email, SMS, push, and chat routing, delay steps, and vendor failover.
 
-- **[Listmonk](https://github.com/knadh/listmonk)** [![GitHub stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers)  
+- **[Listmonk](https://github.com/knadh/listmonk)** [![GitHub_Stars](https://img.shields.io/github/stars/knadh/listmonk?style=social&color=white)](https://github.com/knadh/listmonk/stargazers)  
   *High-performance, self-hosted newsletter and mailing list manager.* Packaged as a single Go binary backed by PostgreSQL, capable of delivering millions of segmented review invitation emails.
 
-- **[Postal](https://github.com/postalserver/postal)** [![GitHub stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers)  
+- **[Postal](https://github.com/postalserver/postal)** [![GitHub_Stars](https://img.shields.io/github/stars/postalserver/postal?style=social&color=white)](https://github.com/postalserver/postal/stargazers)  
   *Full-featured open-source mail delivery platform.* Self-hosted alternative to SendGrid and Postmark with complete inbound/outbound SMTP handling, click tracking, and webhooks for review emails.
 
-- **[Mautic](https://github.com/mautic/mautic)** [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
+- **[Mautic](https://github.com/mautic/mautic)** [![GitHub_Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
   *Open-source marketing automation platform.* Build sophisticated multi-stage review request drip campaigns, trigger customer follow-ups, and segment advocates based on star ratings.
 
-- **[Shlink](https://github.com/shlinkio/shlink)** [![GitHub stars](https://img.shields.io/github/stars/shlinkio/shlink?style=social&color=white)](https://github.com/shlinkio/shlink/stargazers)  
+- **[Shlink](https://github.com/shlinkio/shlink)** [![GitHub_Stars](https://img.shields.io/github/stars/shlinkio/shlink?style=social&color=white)](https://github.com/shlinkio/shlink/stargazers)  
   *Self-hosted open-source URL shortener with REST API.* Generate custom branded shortlinks for SMS and QR-code review campaigns with real-time click tracking and geolocation analytics.
 
 ---
@@ -274,25 +274,25 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Low-code internal tool builders, headless CMS platforms, and databases for building custom review moderation consoles.*
 
-- **[Supabase](https://github.com/supabase/supabase)** [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
+- **[Supabase](https://github.com/supabase/supabase)** [![GitHub_Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)  
   *Open-source Firebase alternative.* Provides a managed PostgreSQL database, real-time change subscriptions, authentication, and auto-generated REST/GraphQL APIs for custom review backends.
 
-- **[Strapi](https://github.com/strapi/strapi)** [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
+- **[Strapi](https://github.com/strapi/strapi)** [![GitHub_Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
   *Leading open-source headless CMS.* Build structured review schemas, content moderation queues, user rating endpoints, and syndication APIs with fine-grained role-based permissions.
 
-- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
+- **[NocoDB](https://github.com/nocodb/nocodb)** [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)  
   *Open-source smart spreadsheet and Airtable alternative.* Connects directly to PostgreSQL or MySQL databases to provide an intuitive grid view for moderating and tagging incoming reviews.
 
-- **[ToolJet](https://github.com/ToolJet/ToolJet)** [![GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers)  
+- **[ToolJet](https://github.com/ToolJet/ToolJet)** [![GitHub_Stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers)  
   *Low-code framework for building custom internal applications.* Assemble review triage dashboards, multi-location approval queues, and staff response interfaces in minutes.
 
-- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
+- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub_Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
   *Open-source developer platform for internal tools.* Drag-and-drop UI components connected to SQL and REST backends to create custom multi-location review management dashboards.
 
-- **[Directus](https://github.com/directus/directus)** [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
+- **[Directus](https://github.com/directus/directus)** [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
   *Instant REST and GraphQL APIs over any SQL database.* Wraps your review database in an intuitive data studio for non-technical community managers and review moderators.
 
-- **[Baserow](https://github.com/bram2w/baserow)** [![GitHub stars](https://img.shields.io/github/stars/bram2w/baserow?style=social&color=white)](https://github.com/bram2w/baserow/stargazers)  
+- **[Baserow](https://github.com/bram2w/baserow)** [![GitHub_Stars](https://img.shields.io/github/stars/bram2w/baserow?style=social&color=white)](https://github.com/bram2w/baserow/stargazers)  
   *Open-source no-code relational database tool.* Organize customer feedback, catalog reviews by location, and collaborate on responses with custom view filters and forms.
 
 ---
@@ -301,22 +301,22 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Business intelligence suites and observability platforms for tracking Net Promoter Scores, review velocity, and ratings trends.*
 
-- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
   *Industry-standard visualization and metric dashboard.* Track live review counts, average star ratings across branches, response latency, and sentiment distributions in real time.
 
-- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
   *Enterprise-ready business intelligence and data exploration platform.* Perform deep SQL queries and build interactive dashboards visualizing historical reputation trends across hundreds of locations.
 
-- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
   *Simple, self-serve business analytics platform.* Allows non-technical business managers to ask questions, filter customer review metrics, and build automated reputation summary reports.
 
-- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
   *All-in-one open-source product analytics and session recording suite.* Connect website review widget interactions with user onboarding funnel conversion and in-app feedback surveys.
 
-- **[Umami](https://github.com/umami-software/umami)** [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
+- **[Umami](https://github.com/umami-software/umami)** [![GitHub_Stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
   *Simple, privacy-respecting open-source web analytics.* Measure how website visitors interact with embedded review badges and testimonial widgets without tracking personal data.
 
-- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
+- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
   *Open-source search and visualization dashboard.* Explore massive customer review datasets, run text search queries across millions of feedback entries, and visualize negative keyword spikes.
 
 ---
@@ -325,13 +325,13 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Low-code integration engines and automated web agents for connecting publisher APIs, notifying teams, and syncing feedback.*
 
-- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   *Leading fair-code workflow automation tool.* Essential glue connecting external review webhooks to AI sentiment classifiers, Slack notification channels, CRM records, and auto-response pipelines.
 
-- **[Huginn](https://github.com/huginn/huginn)** [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)  
+- **[Huginn](https://github.com/huginn/huginn)** [![GitHub_Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)  
   *Self-hosted open-source agent system for web monitoring.* Set up automated agents that poll external review feeds, check website ratings, and trigger events when negative reviews appear.
 
-- **[Node-RED](https://github.com/node-red/node-red)** [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+- **[Node-RED](https://github.com/node-red/node-red)** [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
   *Low-code flow-based programming tool.* Wire together incoming review webhooks, CRM databases, local POS terminals, and physical feedback kiosk tablets.
 
 ---
@@ -340,10 +340,10 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Tools to detect mentions, track brand conversations, and uncover public feedback outside traditional review directories.*
 
-- **[SearXNG](https://github.com/searxng/searxng)** [![GitHub stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers)  
+- **[SearXNG](https://github.com/searxng/searxng)** [![GitHub_Stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers)  
   *Privacy-respecting open-source metasearch engine.* Aggregates results from 70+ search engines to discover unindexed brand mentions, blog reviews, forum complaints, and directory listings.
 
-- **[Kuew Social Monitor](https://github.com/Kuew/social-media-monitoring-open-source)** [![GitHub stars](https://img.shields.io/github/stars/Kuew/social-media-monitoring-open-source?style=social&color=white)](https://github.com/Kuew/social-media-monitoring-open-source/stargazers)  
+- **[Kuew Social Monitor](https://github.com/Kuew/social-media-monitoring-open-source)** [![GitHub_Stars](https://img.shields.io/github/stars/Kuew/social-media-monitoring-open-source?style=social&color=white)](https://github.com/Kuew/social-media-monitoring-open-source/stargazers)  
   *Open-source social listening and media monitoring dashboard.* Track brand keywords, sentiment, and user reactions across digital communities.
 
 ---
@@ -352,37 +352,37 @@ The open-source reputation management landscape is modular: while there is rarel
 
 *Local LLMs, transformer models, and NLP libraries to classify customer emotion, summarize feedback, and draft automated replies.*
 
-- **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+- **[Ollama](https://github.com/ollama/ollama)** [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
   *Get up and running with large language models locally.* Deploy Llama 3, Mistral, or Qwen on self-hosted GPU hardware to analyze review sentiment and generate context-aware response drafts privately.
 
-- **[Transformers](https://github.com/huggingface/transformers)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+- **[Transformers](https://github.com/huggingface/transformers)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
   *State-of-the-art machine learning library for PyTorch and TensorFlow.* Utilize pre-trained sentiment models (BERT, RoBERTa) to classify customer tone, urgency, and review emotion.
 
-- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
   *Framework for developing applications powered by LLMs.* Create automated review-response chains that reference company FAQs, tone guidelines, and resolution policies.
 
-- **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
+- **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
   *Deep learning framework with GPU acceleration.* Foundation for training proprietary deep-learning classifiers on domain-specific customer feedback and multi-class sentiment corpora.
 
-- **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+- **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
   *High-throughput and memory-efficient LLM serving engine.* Powers sub-second response generation for large-scale multi-location review monitoring platforms.
 
-- **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+- **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub_Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
   *Machine learning in Python.* Train fast TF-IDF and SVM classifiers for instant review sentiment prediction, language detection, and spam review identification.
 
-- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
   *Data framework for LLM-based query engines.* Index historical review archives and customer feedback databases for semantic search and automated trend summarization.
 
-- **[spaCy](https://github.com/explosion/spaCy)** [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
+- **[spaCy](https://github.com/explosion/spaCy)** [![GitHub_Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
   *Industrial-strength Natural Language Processing in Python.* Fast tokenization, lemmatization, named entity recognition (NER), and rule-based phrase matching over customer reviews.
 
-- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
   *Open-source LLM orchestration framework by deepset.* Build production retrieval-augmented generation (RAG) pipelines over multi-year customer feedback archives.
 
-- **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)  
+- **[BERTopic](https://github.com/MaartenGr/BERTopic)** [![GitHub_Stars](https://img.shields.io/github/stars/MaartenGr/BERTopic?style=social&color=white)](https://github.com/MaartenGr/BERTopic/stargazers)  
   *Transformer-based topic modeling technique.* Clusters unstructured customer review text into easily interpretable topics to discover why customers rate businesses 1-star or 5-stars.
 
-- **[VADER Sentiment](https://github.com/cjhutto/vaderSentiment)** [![GitHub stars](https://img.shields.io/github/stars/cjhutto/vaderSentiment?style=social&color=white)](https://github.com/cjhutto/vaderSentiment/stargazers)  
+- **[VADER Sentiment](https://github.com/cjhutto/vaderSentiment)** [![GitHub_Stars](https://img.shields.io/github/stars/cjhutto/vaderSentiment?style=social&color=white)](https://github.com/cjhutto/vaderSentiment/stargazers)  
   *Rule-based sentiment analysis tool.* Specifically tuned for social media comments, customer reviews, emojis, and informal star-rating text with zero GPU requirements.
 
 ---
@@ -2692,7 +2692,7 @@ Contributions, updates, and corrections are welcome! 🎉
 
 1. Fork this repository 🍴
 2. Add or update entries adhering to the tabular or category format (keep descriptions objective, verified, and concise).
-3. Ensure every open-source repository badge follows the standard format: `[![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
+3. Ensure every open-source repository badge follows the standard format: `[![GitHub_Stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
 4. Check out the overarching [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) collection for more curated developer and infrastructure guides.
 5. Submit a Pull Request with a clear summary of your changes 🚀
 
