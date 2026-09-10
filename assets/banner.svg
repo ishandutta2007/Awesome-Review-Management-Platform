@@ -147,12 +147,12 @@
     </g>
 
     <!-- Title -->
-    <text x="0" y="88" fill="url(#title-grad)" class="text-title" filter="url(#glow-cyan)">Awesome Review Management</text>
-    <text x="0" y="128" fill="#f8fafc" class="text-title" font-size="34" letter-spacing="-0.3px">Platform &amp; ORM Ecosystem</text>
+    <text x="400" y="88" fill="url(#title-grad)" class="text-title" filter="url(#glow-cyan)">Awesome Review Management</text>
+    <text x="400" y="128" fill="#f8fafc" class="text-title" font-size="34" letter-spacing="-0.3px">Platform &amp; ORM Ecosystem</text>
 
     <!-- Subtitle -->
-    <text x="0" y="166" class="text-sub">Curated SaaS leaders, open-source alternatives, social proof tools,</text>
-    <text x="0" y="190" class="text-sub">AI sentiment analysis, feedback workflows, and multi-location engines.</text>
+    <text x="400" y="166" class="text-sub">Curated SaaS leaders, open-source alternatives, social proof tools,</text>
+    <text x="400" y="190" class="text-sub">AI sentiment analysis, feedback workflows, and multi-location engines.</text>
 
     <!-- Feature Tags -->
     <g transform="translate(0, 222)">
